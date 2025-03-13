@@ -2,7 +2,7 @@
 
 # asdf-starknet-devnet [![Build](https://github.com/ptisserand/asdf-starknet-devnet/actions/workflows/build.yml/badge.svg)](https://github.com/ptisserand/asdf-starknet-devnet/actions/workflows/build.yml) [![Lint](https://github.com/ptisserand/asdf-starknet-devnet/actions/workflows/lint.yml/badge.svg)](https://github.com/ptisserand/asdf-starknet-devnet/actions/workflows/lint.yml)
 
-[starknet-devnet](https://0xspaceshard.github.io/starknet-devnet-rs/) plugin for the [asdf version manager](https://asdf-vm.com).
+[starknet-devnet](https://0xspaceshard.github.io/starknet-devnet/) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 
@@ -39,8 +39,8 @@ asdf list-all starknet-devnet
 # Install specific version
 asdf install starknet-devnet latest
 
-# Set a version globally (on your ~/.tool-versions file)
-asdf global starknet-devnet latest
+# Set a version
+asdf set starknet-devnet latest
 
 # Now starknet-devnet commands are available
 starknet-devnet --version
