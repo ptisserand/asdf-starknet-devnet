@@ -3,7 +3,7 @@
 set -euo pipefail
 
 # TODO: Ensure this is the correct GitHub homepage where releases can be downloaded for starknet-devnet.
-GH_REPO="https://github.com/0xSpaceShard/starknet-devnet"
+GH_REPO="https://github.com/starknet-io/starknet-devnet"
 TOOL_NAME="starknet-devnet"
 TOOL_TEST="starknet-devnet --version"
 
